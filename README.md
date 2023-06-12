@@ -5,4 +5,4 @@
 REST - 229.02ms avg time to make 1000 requests
 gRPC - 361.14ms avg time to make 1000 requests
 
-![Experiment results](image.png)
+![Performance test](image.png)
