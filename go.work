@@ -1,0 +1,9 @@
+go 1.20
+
+use (
+	./src/REST/client
+	./src/REST/server
+	./src/gRPC/client
+	./src/gRPC/server
+	./src/gRPC
+)
