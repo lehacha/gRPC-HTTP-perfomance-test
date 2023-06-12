@@ -1,0 +1,19 @@
+syntax="proto3";
+
+package TextProcessor;
+
+option go_package = "./workspace";
+
+message ProcessRequest {
+    string text = 1;
+    string username = 2;
+}
+
+message ProcessResponse {
+    repeated string words = 1;
+    string message = 2;
+}
+
+service TextProcessor {
+    rpc Process (ProcessRequest) returns (ProcessResponse) {}
+}
